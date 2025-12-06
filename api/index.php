@@ -44,13 +44,10 @@ $divisions = [
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>BPJS Ketenagakerjaan — Portal Demo</title>
 
-  <!-- Poppins font (modern, not too biasa) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap (only for grid & modal) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/base.css">
 <link rel="stylesheet" href="assets/css/header.css">
 <link rel="stylesheet" href="assets/css/hero.css">
@@ -63,16 +60,12 @@ $divisions = [
 </head>
 <body>
 
-<!-- HEADER -->
 <header class="site-header">
   <div class="container d-flex align-items-center justify-content-between">
   <a href="#home" class="brand d-flex align-items-center">
-  <!-- <img src="assets/img/logo-bpjs.jpg" alt="BPJS" class="logo"> -->
   <img src="assets/img/logo-bpjs.jpg" alt="BPJS" class="site-logo">
   <div class="ms-2 d-none d-md-block">
-    <!-- <div class="brand-title">BPJS</div>
-    <div class="brand-sub">Ketenagakerjaan</div> -->
-  </div>
+    </div>
 </a>
 
 
@@ -84,13 +77,10 @@ $divisions = [
   </div>
 </header>
 
-<!-- HERO (dominant green area - ~80%) -->
-<!-- HERO SECTION -->
 <section id="home" class="hero">
   <div class="container">
     <div class="row align-items-center">
 
-      <!-- TEXT -->
       <div class="col-lg-7">
         <h1 class="hero-title">
           Perlindungan Pekerja,
@@ -105,7 +95,6 @@ $divisions = [
         <a href="#divisi" class="btn btn-cta">Lihat Divisi & Layanan</a>
       </div>
 
-      <!-- IMAGE -->
       <div class="col-lg-5 d-none d-lg-block">
         <div class="hero-img-wrap">
           <img src="assets/img/hero-people.jpg" alt="Hero" class="hero-img">
@@ -116,7 +105,6 @@ $divisions = [
   </div>
 </section>
 
-<!-- DIVISI (utama, stylish cards) -->
 <section id="divisi" class="section section--light">
   <div class="container">
     <h2 class="section-title">Divisi</h2>
@@ -127,7 +115,6 @@ $divisions = [
         <div class="card service-card h-100">
           <div class="card-body d-flex flex-column">
             <div class="icon-wrap mb-3">
-              <!-- inline SVG icon: choose by divisi -->
               <?php if($name==='DAL OP'): ?>
                 <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M12 2v2M5.2 4.5l1.4 1.4M2 12h2M19.4 4.5l-1.4 1.4M22 12h-2M6.6 19.5l1.4-1.4M12 20v2M17.4 19.5l-1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
               <?php elseif($name==='KEPESERTAAN'): ?>
@@ -150,7 +137,6 @@ $divisions = [
         </div>
       </div>
 
-      <!-- Modal per divisi -->
       <div class="modal fade" id="modal-<?= $i ?>" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content modal-clean">
@@ -164,7 +150,6 @@ $divisions = [
                 <div class="col-12 col-md-6">
                   <div class="link-card d-flex align-items-start p-3 rounded-3">
                     <div class="link-icon me-3">
-                      <!-- mini colored square with first letter (or you can replace with SVG) -->
                       <div class="mini"><?= strtoupper(substr($l['title'],0,1)) ?></div>
                     </div>
                     <div class="flex-grow-1">
@@ -189,13 +174,11 @@ $divisions = [
   </div>
 </section>
 
-<!-- TENTANG (Visi / Misi / Struktur & Alamat below) -->
 <section id="about" class="section section--white">
   <div class="container">
 
     <h2 class="section-title">Informasi BPJS Ketenagakerjaan</h2>
 
-    <!-- ================= VISI ================= -->
     <div class="about-card">
       <div class="icon-title">
         <span class="division-icon">🌿</span>
@@ -209,7 +192,6 @@ $divisions = [
       </p>
     </div>
 
-    <!-- ================= MISI ================= -->
     <div class="about-card">
       <div class="icon-title">
         <span class="division-icon">🎯</span>
@@ -223,7 +205,6 @@ $divisions = [
       </ul>
     </div>
 
-    <!-- ================= STRUKTUR DIVISI ================= -->
     <div class="division-section">
       <h3 class="division-title">Struktur Divisi</h3>
 
@@ -272,22 +253,17 @@ $divisions = [
 </section>
 
 
-<!-- FOOTER -->
 <footer class="site-footer">
   <div class="container text-center">
     <small class="text-muted">© BPJS Ketenagakerjaan — Darmo Surabaya</small>
   </div>
 </footer>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Custom JS -->
 <script src="assets/js/script.js"></script>
 <main>
 
-    <!-- ========== END TIMELINE SECTION ========== -->
-
-</main>
+    </main>
 
 </body>
 </html>
