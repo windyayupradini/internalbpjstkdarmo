@@ -223,7 +223,7 @@ $divisions = [
           <h4>Divisi Kepesertaan</h4>
           <p>
             Bertanggung jawab atas registrasi peserta, validasi identitas, verifikasi dokumen, dan
-            pengelolaan administrasi kepesertaan formal maupun informal.\n
+            pengelolaan administrasi kepesertaan formal maupun informal.
           </p>
         </div>
 
@@ -266,3 +266,4 @@ $divisions = [
 
 </body>
 </html>
+
