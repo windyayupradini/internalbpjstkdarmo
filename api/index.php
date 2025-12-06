@@ -1,6 +1,5 @@
 <?php
-// index.php - final stylish single-page (modal per divisi)
-// Pastikan assets/img/logo-bpjs.png & optional hero-people.jpg tersedia.
+// api/index.php - final stylish single-page (modal per divisi)
 
 $divisions = [
   'DAL OP' => [
@@ -48,22 +47,22 @@ $divisions = [
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/base.css">
-<link rel="stylesheet" href="assets/css/header.css">
-<link rel="stylesheet" href="assets/css/hero.css">
-<link rel="stylesheet" href="assets/css/section.css">
-<link rel="stylesheet" href="assets/css/card.css">
-<link rel="stylesheet" href="assets/css/modal.css">
-<link rel="stylesheet" href="assets/css/about.css">
-<link rel="stylesheet" href="assets/css/footer.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/hero.css">
+  <link rel="stylesheet" href="/assets/css/section.css">
+  <link rel="stylesheet" href="/assets/css/card.css">
+  <link rel="stylesheet" href="/assets/css/modal.css">
+  <link rel="stylesheet" href="/assets/css/about.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container d-flex align-items-center justify-content-between">
   <a href="#home" class="brand d-flex align-items-center">
-  <img src="assets/img/logo-bpjs.jpg" alt="BPJS" class="site-logo">
+  <img src="/assets/img/logo-bpjs.jpg" alt="BPJS" class="site-logo">
   <div class="ms-2 d-none d-md-block">
     </div>
 </a>
@@ -97,7 +96,7 @@ $divisions = [
 
       <div class="col-lg-5 d-none d-lg-block">
         <div class="hero-img-wrap">
-          <img src="assets/img/hero-people.jpg" alt="Hero" class="hero-img">
+          <img src="/assets/img/hero-people.jpg" alt="Hero" class="hero-img">
         </div>
       </div>
 
@@ -260,7 +259,7 @@ $divisions = [
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/script.js"></script>
+<script src="/assets/js/script.js"></script>
 <main>
 
     </main>
