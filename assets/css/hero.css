@@ -1,0 +1,36 @@
+/* hero.css - hero section */
+
+.hero {
+    background: url('img/logo_bpjs.png');
+    background-size: 100% 100%;  /* INI JUGA BIKIN FULLSCREEN */
+}
+  
+  .hero-title{ 
+    color:var(--white); font-size:40px;
+    line-height:1.05; margin:0 0 12px; font-weight:800;
+    background: none !important;
+    padding: 0;
+  }
+
+  .hero-highlight{
+    background: rgba(255,255,255,0.08);
+    padding:6px 10px;
+    border-radius:8px;
+  }
+  
+  .hero-lead{ color: rgba(255,255,255,0.92); font-weight:500; margin-bottom:18px; }
+  
+  .btn-cta{
+    background: var(--white);
+    color: var(--green-1);
+    padding:10px 18px;
+    border-radius:12px;
+    font-weight:700;
+    box-shadow: 0 12px 28px rgba(6,44,22,0.12);
+    text-decoration:none;
+    display:inline-block;
+  }
+  
+  .hero-card{ background: rgba(255,255,255,0.06); padding:10px; border-radius:16px; box-shadow: var(--shadow); }
+  .hero-img{ width:320px; border-radius:12px; object-fit:cover; }
+  

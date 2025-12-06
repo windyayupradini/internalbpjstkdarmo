@@ -1,0 +1,164 @@
+/* =======================
+   ABOUT SECTION
+======================= */
+#about {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #0a7f3e;
+    text-align: center;
+}
+
+/* CARD ABOUT */
+.about-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px 28px;
+    box-shadow: 0 8px 26px rgba(227, 6, 6, 0.06);
+    margin-bottom: 28px;
+    border-left: 6px solid #0a7f3e;
+    transition: .25s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-4px);
+}
+
+/* TITLE + ICON */
+.icon-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.division-icon {
+    font-size: 34px;
+    color: #0a7f3e;
+}
+
+.about-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0a7f3e;
+}
+
+/* DESKRIPSI CARD */
+.about-text {
+    font-size: 15px;
+    color: #3b3b2a;
+    line-height: 1.55;
+}
+
+.about-list {
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.about-list li {
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: #2b3b36;
+}
+
+
+/* =======================
+   STRUKTUR DIVISI
+======================= */
+.division-section {
+    margin-top: 70px;
+}
+
+.division-title {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #0a7f3e;
+    margin-bottom: 40px;
+}
+
+/* GRID CARD — FIX BIAR 2×2 */
+.division-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 2 kolom stabil */
+    gap: 26px;
+}
+
+/* RESPONSIVE — HP / TABLET */
+@media (max-width: 768px) {
+    .division-grid {
+        grid-template-columns: 1fr;  /* jadi 1 kolom */
+    }
+}
+
+/* CARD DIVISI */
+.division-card {
+    background: #fff;
+    border-radius: 22px;
+    padding: 26px;
+    border: 1.6px solid rgba(10,127,62,0.25);
+    box-shadow: 0 6px 22px rgba(0,0,0,0.06);
+    transition: .25s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.division-card:hover {
+    transform: translateY(-6px);
+}
+
+/* Decorative bubbles */
+.division-card::before {
+    content: "";
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: rgba(10,127,62,0.10);
+    position: absolute;
+    bottom: -25px;
+    right: -20px;
+}
+
+.division-card::after {
+    content: "";
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: rgba(10,127,62,0.15);
+    position: absolute;
+    top: -18px;
+    left: -18px;
+}
+
+.division-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0a7f3e;
+}
+
+.division-card p {
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: #2a3b33;
+}
+
+/* HERO IMAGE FIX */
+.hero-img-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 420px;        /* ukuran aman */
+    overflow: hidden;        /* ⛔ mencegah keluar garis */
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;     /* jaga proporsi */
+    display: block;
+    transform: translateY(-14px); /* geser sedikit biar sejajar garis */
+}

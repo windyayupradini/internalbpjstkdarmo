@@ -1,0 +1,54 @@
+/* card.css - divisi cards */
+
+.service-card{
+    border-radius:14px;
+    overflow:hidden;
+    border:none;
+    box-shadow: 0 12px 30px rgba(6,44,22,0.06);
+    transition: transform .18s ease, box-shadow .18s ease;
+    background: linear-gradient(180deg, #ffffff, #fbfffb);
+    height:100%;
+    display:flex;
+    flex-direction:column;
+  }
+  .service-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 32px 60px rgba(6,44,22,0.12);
+  }
+  
+  .icon-wrap{
+    width:64px; height:64px;
+    display:flex; align-items:center; justify-content:center;
+    background: linear-gradient(135deg, rgba(31,191,107,0.12), rgba(15,167,90,0.08));
+    border-radius:12px;
+    box-shadow: 0 8px 18px rgba(6,44,22,0.06);
+  }
+  
+  .icon{ width:36px; height:36px; color: var(--green-1); }
+  
+  .card-title{ font-weight:800; font-size:18px; color:#0f3b2a; margin:0; }
+  .card-text{ color:var(--muted); font-size:13.5px; }
+  
+  .btn-outline-white{
+    color:var(--green-1);
+    border:1px solid rgba(15,167,90,0.12);
+    background:transparent;
+    padding:6px 12px;
+    border-radius:8px;
+  }
+  
+  .learn-more{ color:var(--muted); font-weight:600; text-decoration:none; }
+  
+  .info-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+    transition: 0.3s ease;
+  }
+  
+  .info-box:hover {
+    transform: translateY(-4px);
+  }
+  

@@ -1,0 +1,48 @@
+/* base.css - reset, variables, base body */
+
+:root{
+    --green-1: #0fa75a;
+    --green-2: #1fbf6b;
+    --white: #ffffff;
+    --muted: #6b7280;
+    --card-bg: #fbfffb;
+    --shadow: 0 12px 30px rgba(6,44,22,0.06);
+  }
+  
+  *{ box-sizing:border-box }
+  
+  body{
+    font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    margin:0;
+    color:#112022;
+    background: linear-gradient(180deg, var(--green-1) 0%, var(--green-2) 45%, rgba(255,255,255,1) 46%);
+  }
+  
+  .container { 
+    max-width:1140px; 
+    margin:0 auto; 
+    padding-left:20px; 
+    padding-right:20px; 
+  }
+  
+  /* ===== GLOBAL RESET & TEXT ===== */
+
+p, li, small {
+    color: #555;
+    line-height: 1.7;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  button {
+    font-family: inherit;
+  }
+  
+  /* Smooth animation */
+  * {
+    transition: 0.2s ease;
+  }
+  
+  

@@ -1,0 +1,46 @@
+/* modal.css */
+
+.modal-clean .modal-content{
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow: 0 24px 70px rgba(6,44,22,0.12);
+  }
+  
+  .link-card{
+    background:#fff;
+    border:1px solid rgba(15,167,90,0.06);
+    box-shadow: 0 8px 18px rgba(6,44,22,0.04);
+  }
+  
+  .link-icon .mini{
+    width:44px; height:44px;
+    display:flex; align-items:center; justify-content:center;
+    border-radius:8px;
+    background: linear-gradient(135deg,var(--green-1),var(--green-2));
+    color:#fff; font-weight:700;
+  }
+  .modal-clean .modal-content{
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow: 0 24px 70px rgba(6,44,22,0.12);
+  }
+  
+  .link-card{
+    background:#fff;
+    border:1px solid rgba(15,167,90,0.06);
+    box-shadow: 0 8px 18px rgba(6,44,22,0.04);
+  }
+  
+  /* FIX: Memastikan URL yang panjang (tanpa spasi) akan memecah baris */
+  .link-card .small {
+    word-break: break-all; /* Properti ini akan memecah string panjang kapan pun diperlukan */
+  }
+  
+  .link-icon .mini{
+    width:44px; height:44px;
+    display:flex; align-items:center; justify-content:center;
+    border-radius:8px;
+    background: linear-gradient(135deg,var(--green-1),var(--green-2));
+    color:#fff; font-weight:700;
+  }
+  
