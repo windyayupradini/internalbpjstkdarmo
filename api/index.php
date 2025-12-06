@@ -1,6 +1,5 @@
 <?php
 // api/index.php - final stylish single-page (modal per divisi)
-// Pastikan assets/img/logo-bpjs.png & optional hero-people.jpg tersedia.
 
 $divisions = [
   'DAL OP' => [
@@ -224,7 +223,7 @@ $divisions = [
           <h4>Divisi Kepesertaan</h4>
           <p>
             Bertanggung jawab atas registrasi peserta, validasi identitas, verifikasi dokumen, dan
-            pengelolaan administrasi kepesertaan formal maupun informal.
+            pengelolaan administrasi kepesertaan formal maupun informal.\n
           </p>
         </div>
 
