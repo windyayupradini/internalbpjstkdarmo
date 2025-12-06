@@ -1,5 +1,6 @@
 <?php
 // api/index.php - final stylish single-page (modal per divisi)
+// Pastikan assets/img/logo-bpjs.png & optional hero-people.jpg tersedia.
 
 $divisions = [
   'DAL OP' => [
