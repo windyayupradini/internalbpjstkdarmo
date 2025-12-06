@@ -4,7 +4,6 @@
       "runtime": "vercel-php@0.7.1"
     }
   },
-  "public": ["assets"],
   "routes": [
     {
       "src": "/assets/(.*)",
