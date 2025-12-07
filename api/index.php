@@ -140,7 +140,7 @@ $divisions = [
         <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content modal-clean">
             <div class="modal-header border-0">
-              <h5 class="modal-title"><?= $name ?> — Daftar Aplikasi</h5>
+              <h5 class="modal-title"><?= $name ?> </h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
@@ -266,4 +266,5 @@ $divisions = [
 
 </body>
 </html>
+
 
