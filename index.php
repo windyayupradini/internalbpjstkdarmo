@@ -232,7 +232,7 @@
 
 //         <div class="division-card">
 //           <span class="division-icon">🖥️</span>
-//           <h4>Divisi DAL OP</h4>
+//           <h4>Bidang DAL OP</h4>
 //           <p>
 //             Mengelola operasional internal, keamanan data, pemeliharaan server, monitoring aplikasi
 //             (SMILE, HCIS, SIMFONI), serta memastikan sistem berjalan optimal setiap hari.
@@ -241,7 +241,7 @@
 
 //         <div class="division-card">
 //           <span class="division-icon">📑</span>
-//           <h4>Divisi Kepesertaan</h4>
+//           <h4>Bidang Kepesertaan</h4>
 //           <p>
 //             Bertanggung jawab atas registrasi peserta, validasi identitas, verifikasi dokumen, dan
 //             pengelolaan administrasi kepesertaan formal maupun informal.
@@ -250,7 +250,7 @@
 
 //         <div class="division-card">
 //           <span class="division-icon">🔍</span>
-//           <h4>Divisi Wasrik</h4>
+//           <h4>Bidang Wasrik</h4>
 //           <p>
 //             Melakukan audit kepatuhan, pemeriksaan lapangan, analisis temuan, serta memberikan rekomendasi
 //             perbaikan kepada unit layanan.
@@ -259,7 +259,7 @@
 
 //         <div class="division-card">
 //           <span class="division-icon">🤝</span>
-//           <h4>Divisi Pelayanan</h4>
+//           <h4>Bidang Pelayanan</h4>
 //           <p>
 //             Menangani klaim, pengaduan, layanan publik, edukasi peserta, monitoring SLA, serta meningkatkan
 //             kualitas layanan berbasis digital.
