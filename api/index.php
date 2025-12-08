@@ -229,7 +229,7 @@ $divisions = [
 
         <div class="division-card">
           <span class="division-icon">🔍</span>
-          <h4>Divisi Wasri</h4>
+          <h4>Divisi Wasrik</h4>
           <p>
             Melakukan audit kepatuhan, pemeriksaan lapangan, analisis temuan, serta memberikan rekomendasi
             perbaikan kepada unit layanan.
@@ -266,6 +266,7 @@ $divisions = [
 
 </body>
 </html>
+
 
 
 
