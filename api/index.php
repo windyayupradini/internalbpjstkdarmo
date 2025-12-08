@@ -22,7 +22,7 @@ $divisions = [
     ['title'=>'PENDAFTARAN GOJEK (AUTODEBET)','url'=>'https://www.bpjsketenagakerjaan.go.id/bpu/gojek'],
     ['title'=>'KANAL PEMBAYARAN','url'=>'https://www.bpjsketenagakerjaan.go.id/kanal-pembayaran.html'],
   ],
-  'WASRI' => [
+  'WASRIK' => [
     ['title'=>'PORTAL DUKCAPIL','url'=>'https://portal-dukcapil.bpjsketenagakerjaan.go.id/'],
     ['title'=>'SIMFONI','url'=>'http://simfoni.bpjsketenagakerjaan.go.id/'],
     ['title'=>'IPROJECT','url'=>'https://iproject.bpjsketenagakerjaan.co.id'],
@@ -266,5 +266,6 @@ $divisions = [
 
 </body>
 </html>
+
 
 
