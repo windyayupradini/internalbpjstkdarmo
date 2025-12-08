@@ -42,7 +42,7 @@ $divisions = [
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>BPJS Ketenagakerjaan — Portal Demo</title>
+  <title>BPJS Ketenagakerjaan — Portal Darmo</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
 
@@ -92,7 +92,7 @@ $divisions = [
           cepat, aman, dan terpercaya.
         </p>
 
-        <a href="#divisi" class="btn btn-cta">Lihat Divisi & Layanan</a>
+        <a href="#divisi" class="btn btn-cta">Lihat Bidang & Layanan</a>
       </div>
 
       <div class="col-lg-5 d-none d-lg-block">
@@ -107,7 +107,7 @@ $divisions = [
 
 <section id="divisi" class="section section--light">
   <div class="container">
-    <h2 class="section-title">Divisi</h2>
+    <h2 class="section-title">Bidang</h2>
 
     <div class="row g-4 mt-3">
       <?php $i=0; foreach($divisions as $name => $links): $i++; ?>
@@ -267,6 +267,7 @@ $divisions = [
 
 </body>
 </html>
+
 
 
 
