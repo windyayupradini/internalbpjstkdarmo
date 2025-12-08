@@ -43,7 +43,7 @@
 // <head>
 //   <meta charset="utf-8">
 //   <meta name="viewport" content="width=device-width,initial-scale=1">
-//   <title>BPJS Ketenagakerjaan — Portal Demo</title>
+//   <title>BPJS Ketenagakerjaan — Portal Darmo</title>
 
 //   <!-- Poppins font (modern, not too biasa) -->
 //   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
@@ -120,7 +120,7 @@
 // <!-- DIVISI (utama, stylish cards) -->
 // <section id="divisi" class="section section--light">
 //   <div class="container">
-//     <h2 class="section-title">Divisi</h2>
+//     <h2 class="section-title">Bidang</h2>
 
 //     <div class="row g-4 mt-3">
 //       <?php $i=0; foreach($divisions as $name => $links): $i++; ?>
@@ -156,7 +156,7 @@
 //         <div class="modal-dialog modal-dialog-centered modal-lg">
 //           <div class="modal-content modal-clean">
 //             <div class="modal-header border-0">
-//               <h5 class="modal-title"><?= $name ?> — Daftar Aplikasi</h5>
+//               <h5 class="modal-title"><?= $name ?> </h5>
 //               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 //             </div>
 //             <div class="modal-body">
@@ -226,7 +226,7 @@
 
 //     <!-- ================= STRUKTUR DIVISI ================= -->
 //     <div class="division-section">
-//       <h3 class="division-title">Struktur Divisi</h3>
+//       <h3 class="division-title">Struktur Bidang</h3>
 
 //       <div class="division-grid">
 
