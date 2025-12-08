@@ -10,6 +10,7 @@ $divisions = [
     ['title'=>'SMART','url'=>'https://smart.bpjsketenagakerjaan.go.id/#/Login'],
     ['title'=>'SIPATUH','url'=>'https://sipatuh.bpjsketenagakerjaan.go.id/'],
     ['title'=>'E-LEARNING','url'=>'https://elearning.bpjsketenagakerjaan.go.id/login/index.php'],
+    ['title'=>'MONITORING','url'=>'https://sites.google.com/bpjsketenagakerjaan.go.id/monitoringusdmn13/beranda'],
   ],
   'KEPESERTAAN' => [
     ['title'=>'HCIS','url'=>'https://hcis.bpjsketenagakerjaan.go.id/hcis/sunfish5/ehrm/default.cfm'],
@@ -266,6 +267,7 @@ $divisions = [
 
 </body>
 </html>
+
 
 
 
