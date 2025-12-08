@@ -80,7 +80,7 @@
 //     <nav class="nav-links">
 //       <a href="#home" class="nav-link">Home</a>
 //       <a href="#about" class="nav-link">Informasi BPJS</a>
-//       <a href="#divisi" class="nav-link">Divisi</a>
+//       <a href="#divisi" class="nav-link">Bidang</a>
 //     </nav>
 //   </div>
 // </header>
@@ -103,7 +103,7 @@
 //           cepat, aman, dan terpercaya.
 //         </p>
 
-//         <a href="#divisi" class="btn btn-cta">Lihat Divisi & Layanan</a>
+//         <a href="#divisi" class="btn btn-cta">Lihat Bidang & Layanan</a>
 //       </div>
 
 //       <!-- IMAGE -->
@@ -250,7 +250,7 @@
 
 //         <div class="division-card">
 //           <span class="division-icon">🔍</span>
-//           <h4>Divisi Wasri</h4>
+//           <h4>Divisi Wasrik</h4>
 //           <p>
 //             Melakukan audit kepatuhan, pemeriksaan lapangan, analisis temuan, serta memberikan rekomendasi
 //             perbaikan kepada unit layanan.
