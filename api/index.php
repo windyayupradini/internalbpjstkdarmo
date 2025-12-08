@@ -72,7 +72,7 @@ $divisions = [
     <nav class="nav-links">
       <a href="#home" class="nav-link">Home</a>
       <a href="#about" class="nav-link">Informasi BPJS</a>
-      <a href="#divisi" class="nav-link">Divisi</a>
+      <a href="#divisi" class="nav-link">Bidang</a>
     </nav>
   </div>
 </header>
@@ -119,7 +119,7 @@ $divisions = [
                 <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M12 2v2M5.2 4.5l1.4 1.4M2 12h2M19.4 4.5l-1.4 1.4M22 12h-2M6.6 19.5l1.4-1.4M12 20v2M17.4 19.5l-1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
               <?php elseif($name==='KEPESERTAAN'): ?>
                 <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M16 11c1.657 0 3-1.343 3-3S17.657 5 16 5s-3 1.343-3 3 1.343 3 3 3zM8 11c1.657 0 3-1.343 3-3S9.657 5 8 5 5 6.343 5 8s1.343 3 3 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 20a6 6 0 0 1 6-6h8a6 6 0 0 1 6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              <?php elseif($name==='WASRI'): ?>
+              <?php elseif($name==='WASRIK'): ?>
                 <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 2l7 4v6c0 5-3.314 9-7 10-3.686-1-7-5-7-10V6l7-4z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
               <?php else: ?>
                 <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H9l-4 3V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -206,7 +206,7 @@ $divisions = [
     </div>
 
     <div class="division-section">
-      <h3 class="division-title">Struktur Divisi</h3>
+      <h3 class="division-title">Struktur Bidang</h3>
 
       <div class="division-grid">
 
@@ -267,6 +267,7 @@ $divisions = [
 
 </body>
 </html>
+
 
 
 
